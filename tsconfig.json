@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es5" /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017','ES2018' or 'ESNEXT'. */,
+    "module": "commonjs" /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */,
+
+    "strict": true /* Enable all strict type-checking options. */,
+    "moduleResolution": "node",
+    // "baseUrl": "./",                       /* Base directory to resolve non-absolute module names. */
+    "baseUrl": "src",
+    "paths": {
+      "@config": ["pkg/config"],
+      "@pbjs/*": ["pbjs/*"],
+      "@log": ["pkg/log"]
+    },
+    "types": [
+      "node"
+    ] /* Type declaration files to be included in compilation. */,
+    "esModuleInterop": true
+  }
+}
